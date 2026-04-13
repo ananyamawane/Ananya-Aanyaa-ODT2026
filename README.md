@@ -153,38 +153,38 @@ Examples:
 - move object → sensor detects → sound/light response → player reacts
 
 **Response:**  
-`[Write here]`
+`grab joystick → control movement → color fills screen → react to opponent → cover more area → result → replay`
 
 ## 4.2 Intended Player / Audience
 
 | Question | Response |
 |---|---|
-| Who is this for? | `[Write here]` |
-| Age range | `[Write here]` |
-| Solo or multiplayer | `[Write here]` |
-| Expected duration of one round | `[Write here]` |
-| What should the player feel? | `[Write here]` |
-| Is explanation required before use? | `[Write here]` |
+| Who is this for? | `[everyone]` |
+| Age range | `[10 years and above]` |
+| Solo or multiplayer | `[two player game]` |
+| Expected duration of one round | `[45 seconds]` |
+| What should the player feel? | `[Excited, competitive, playful, happy, satisfied, sad(if you lose), amused ]` |
+| Is explanation required before use? | `Minimal explanation is required. We would briefly explain that each player controls a paint roller using the joystick, and the goal is to cover as much of the screen as possible with their color within the time limit.` |
 
 ## 4.3 Player Journey
 Describe exactly how a player will use the project.
 
-1. **Approach:** `[How does the player first encounter it?]`
-2. **Start:** `[How do they begin?]`
-3. **First Action:** `[What do they do first?]`
-4. **Main Interaction:** `[What keeps happening during use?]`
-5. **System Response:** `[How does the project respond?]`
-6. **Win / Lose / End Condition:** `[How does one round end?]`
-7. **Reset:** `[How does the next round begin?]`
+1. **Approach:** `Players notice the large, unusual joysticks and the colorful screen, which naturally draws their attention and makes them curious to try it.`
+2. **Start:** `Two players step up to the joysticks, and after quick instructions, the game begins with a timer.`
+3. **First Action:** `Players grab the joysticks and start moving them, immediately seeing their color appear and spread on the screen.`
+4. **Main Interaction:** `Players continuously move the joystick to control their paint roller, trying to cover more area while reacting to the opponent’s movements and strategy.`
+5. **System Response:** `The screen updates in real time, showing paint spreading, overlapping, and changing dynamically based on each player’s input.`
+6. **Win / Lose / End Condition:** `When the timer ends, the game calculates which player has covered more area, and a winner is displayed.`
+7. **Reset:** `The screen resets with a button, clearing the canvas and allowing players to start a new round.`
 
 ## 4.4 Rules of Play
 If your project is a game, list the rules clearly.
 
-- `[Rule 1]`
-- `[Rule 2]`
-- `[Rule 3]`
-- `[Rule 4]`
-
+- `Each player controls a paint roller using their joystick.`
+- `The goal is to cover as much of the screen as possible with your color before the timer ends.`
+- `Players can move freely and compete by covering over the opponent’s paint.`
+- `The player with the most area covered at the end of the round wins.`
+- `DO NOT BREAK THE JOYSTICKS!!`
 ---
 
 # 5. Definition of Success
@@ -192,11 +192,11 @@ If your project is a game, list the rules clearly.
 ## 5.1 Definition of “Playable”
 Your project will be considered complete only if these conditions are met.
 
-- [ ] `[Condition 1]`
-- [ ] `[Condition 2]`
-- [ ] `[Condition 3]`
-- [ ] `[Condition 4]`
-- [ ] `[Condition 5]`
+- [ ] `Both joysticks successfully control movement on the screen in real time`
+- [ ] `The game clearly shows paint spreading based on each player’s input`
+- [ ] `Two players can play simultaneously without system lag or breakdown`
+- [ ] `The game includes a clear start, timer, and end condition with a visible winner`
+- [ ] `The interaction is intuitive enough for new users to understand and play with minimal instruction`
 
 ## 5.2 Minimum Viable Version
 What is the smallest version of this project that still delivers the core experience?
