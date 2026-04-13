@@ -52,20 +52,20 @@ By the final review, this README should clearly show:
 # 1. Team Identity
 
 ## 1.1 Studio / Group Name
-`[Enter your group name]`
+`[Paint Fighters]`
 
 ## 1.2 Team Members
 
 | Name | Primary Role | Secondary Role | Strengths Brought to the Project |
 |---|---|---|---|
-| `[Student 1]` | `[Electronics / Coding / App / Fabrication / Mechanics]` | `[Role]` | `[Write here]` |
-| `[Student 2]` | `[Electronics / Coding / App / Fabrication / Mechanics]` | `[Role]` | `[Write here]` |
+| `[Ananya Mawane]` | `[Electronics / Coding / App / Fabrication / Mechanics]` | `[Role]` | `[Write here]` |
+| `[Aanyaa Agrawal]` | `[Electronics / Coding / App / Fabrication / Mechanics]` | `[Role]` | `[Write here]` |
 
 ## 1.3 Project Title
-`[Enter the title of your project]`
+`[Paint Fight]`
 
 ## 1.4 One-Line Pitch
-`[Describe your project in one sentence]`
+`[A two-player paint fight game where players use oversized joysticks to compete and cover the screen with their color in real time.]`
 
 ## 1.5 Expanded Project Idea
 In 1–2 paragraphs, explain:
@@ -75,7 +75,9 @@ In 1–2 paragraphs, explain:
 - what technologies are involved.
 
 **Response:**  
-`[Write here]`
+`[Our project is a two-player interactive “paint fight” where players use oversized joysticks to control paint rollers on a shared screen. The core idea is inspired by the mobile game Paint Fight from 2 Player Games : the Challenge. Each player is assigned a color and tries to cover as much of the canvas as possible within a set time.
+
+The experience is meant to feel playful, slightly chaotic, and competitive. It’s fun because you can see your color spreading in real time while trying to outdo the other player, and the scale of the joysticks makes the interaction feel a bit humorous, unusual, and engaging. There’s a mix of control and unpredictability that keeps it exciting. Technologically, we’re building the large joysticks ourselves and connecting them to an ESP32, which will send input to a screen-based game. We’re still deciding whether to develop the game ourselves using something like Python/Pygame or adapt an existing mobile game for the interaction.]`
 
 ---
 
@@ -101,7 +103,11 @@ Answer the following:
 - Why would someone want to try it again?
 
 **Response:**  
-`[Write here]`
+`[The experience is a two-player, real-time interactive game that turns a simple action like “coloring” into something physical, social, and competitive. Instead of tapping on a screen, players are standing side by side, holding oversized joysticks and actively controlling how their color spreads across a shared canvas. It feels less like playing a digital game and more like being inside a playful, slightly chaotic system where your movements directly shape what’s happening in front of you.
+
+We want players to feel a mix of anticipation, urgency, and amusement. There’s a constant push and pull between trying to control your own area while reacting to what the other player is doing, which creates a dynamic, back-and-forth rhythm. The scale of the joysticks adds a layer of physicality that makes even small actions feel exaggerated, sometimes clumsy, and often funny. That slight lack of precision is intentional, it creates moments of surprise, unexpected overlaps, and quick decisions, making the interaction feel alive rather than perfectly controlled.
+
+People would want to try it again because the experience isn’t fixed or predictable. Each round depends on how both players move, react, and adapt in the moment. It’s as much about reading the other person as it is about controlling your own movement. The short, repeatable rounds, combined with the social aspect of competing side by side, make it easy to jump back in, whether to improve, experiment with a different approach, or simply enjoy the interaction again.]`
 
 ## 2.3 Design Persona
 Complete the sentence below:
@@ -109,7 +115,7 @@ Complete the sentence below:
 > We are designing this project as if we are a small creative studio making a **[toy / game / playable object / interactive experience]** for **[children / teens / adults / classmates / exhibition visitors / mixed audience]**.
 
 **Response:**  
-`[Write here]`
+`[We are designing this project as if we are a small creative studio making an interactive gaming experience for a mixed audience.]`
 
 ---
 
@@ -120,15 +126,18 @@ List what inspired the project.
 
 | Source Type | Title / Link | What Inspired You |
 |---|---|---|
-| `[Toy / Board game / App / Video / Website / Object]` | `[Link or title]` | `[What did you learn or borrow?]` |
-| `[Toy / Board game / App / Video / Website / Object]` | `[Link or title]` | `[What did you learn or borrow?]` |
-| `[Toy / Board game / App / Video / Website / Object]` | `[Link or title]` | `[What did you learn or borrow?]` |
+| `[ App ]` | `[Paint Fight – 2 Player Games: The Challenge]` | `[gameplay]` |
+| `[Object]` | `[PacMan Giant Joystick]` | `[The Scale of the joystick]` |
+| `[Video]` | `[https://www.youtube.com/watch?v=UUlXBcakcdI]` | `[Mechanism of joystick]` |
 
 ## 3.2 Original Twist
 What makes your project original?
 
 **Response:**  
-`[Write here]`
+`[The main twist in our paint fight game comes from the scale of everything, both the giant joysticks and the way the game is played. Instead of small, finger-based controls, players have to use their whole body to move and interact, which makes the experience feel much more immersive and physical.
+
+We’ve also changed the way the game is controlled by introducing these large, custom-built joysticks. It takes a familiar mobile game idea and turns it into something more tangible and shared, making it feel more playful, engaging, and fun to interact with.
+]`
 
 ---
 
