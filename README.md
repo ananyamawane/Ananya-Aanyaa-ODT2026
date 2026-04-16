@@ -202,14 +202,14 @@ Your project will be considered complete only if these conditions are met.
 What is the smallest version of this project that still delivers the core experience?
 
 **Response:**  
-`[Write here]`
+`The simplest version of this concept would be a screen displaying the existing game. Instead of detailed paint rollers, it could use pixelated squares of two different colors competing to cover more area. Rather than a large physical joystick, players could control the game using the arrow keys and WASD keys on a laptop. This version would function without sound effects or background music.`
 
 ## 5.3 Stretch Features
 What features are nice to have but not essential?
 
-- `[Stretch feature 1]`
-- `[Stretch feature 2]`
-- `[Stretch feature 3]`
+- `Haptic feedback`
+- `Color and name customisation`
+- ` `
 
 ---
 
@@ -218,18 +218,18 @@ What features are nice to have but not essential?
 ## 6.1 Project Type
 Check all that apply.
 
-- [ ] Electronics-based
-- [ ] Mechanical
+- [*] Electronics-based
+- [*] Mechanical
 - [ ] Sensor-based
 - [ ] App-connected
 - [ ] Motorized
 - [ ] Sound-based
 - [ ] Light-based
-- [ ] Screen/UI-based
-- [ ] Fabricated structure
-- [ ] Game logic based
-- [ ] Installation / tabletop experience
-- [ ] Other: `[Write here]`
+- [*] Screen/UI-based
+- [*] Fabricated structure
+- [*] Game logic based
+- [*] Installation / tabletop experience
+- [*] Other: `[Interactive]`
 
 ## 6.2 High-Level System Description
 Explain how the system works in simple terms.
@@ -242,16 +242,20 @@ Include:
 - app interaction if any.
 
 **Response:**  
-`[Write here]`
+`[The system consists of a physical joystick interface connected to a digitally coded game. Each joystick is fabricated using wood and is designed to move in four directions. Mechanically, the joystick operates through a pivoting joint, allowing the handle to tilt. Around this base, four lever switches are positioned corresponding to up, down, left, and right directions. When the joystick is tilted in any direction, it physically presses one of these lever switches, generating an input signal.
+
+These inputs are sent to the system via esp32, where they are processed by the game logic coded by us. The game interprets these directional inputs in real time to control the movement of the players (paint rollers) on the screen. The movement direction, speed, and interactions such as power-ups are handled through this programmed logic.
+
+On the output side, the game is displayed on a screen where two players compete to cover the maximum area with their respective colors within a fixed time limit. The system continuously tracks the painted area and determines the winner based on coverage. Visual feedback is immediate, allowing players to see the results of their physical actions in real time.]`
 
 ## 6.3 Input / Output Map
 
 | System Part | Type | What It Does |
 |---|---|---|
-| `[Button / Sensor / Switch / App Input]` | Input | `[Describe]` |
-| `[ESP32 / Controller]` | Processing | `[Describe]` |
-| `[LED / Motor / Servo / Buzzer / Display]` | Output | `[Describe]` |
-| `[Mechanical Assembly]` | Physical Action | `[Describe]` |
+| `[Lever switches (4 per joystick)]` | Input | `[Detect directional movement (up, down, left, right) when the joystick is tilted]` |
+| `[ESP32]` | Processing | `[Reads switch inputs and sends signals to the game logic for movement control ]` |
+| `[Projector Display]` | Output | `[Shows the game, player movement, paint spread, timer, and winner ]` |
+| `[Mechanical joystick Assembly]` | Physical Action | `[Converts player’s hand movement into directional input by pressing switches ]` |
 
 ---
 
