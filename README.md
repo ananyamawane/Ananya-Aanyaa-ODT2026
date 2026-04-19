@@ -265,7 +265,7 @@ On the output side, the game is displayed on a screen where two players compete 
 Add an early sketch of the full idea.
 
 **Insert image below:**  
-`[Upload image and link here]`
+`[https://drive.google.com/drive/folders/1F2LyvK1G52-PeTycdLcZQZZZ4z_3fOlp?usp=sharing]`
 
 Example:
 ```md
@@ -281,7 +281,7 @@ Add a sketch with labels showing:
 - output elements.
 
 **Insert image below:**  
-`[Upload image and link here]`
+`[https://drive.google.com/drive/folders/1F2LyvK1G52-PeTycdLcZQZZZ4z_3fOlp?usp=sharing]`
 
 ## 7.3 Approximate Dimensions
 
@@ -304,19 +304,25 @@ Check all that apply.
 - [ ] Belt drives
 - [ ] Linkages
 - [ ] Hinges
-- [ ] Shafts
-- [ ] Springs
-- [ ] Bearings
+- [*] Shafts
+- [*] Springs
+- [*] Bearings
 - [ ] Wheels
 - [ ] Sliders
-- [ ] Levers
+- [*] Levers
 - [ ] Not applicable
 
 ## 8.2 Mechanical Description
 Describe the mechanism and what it is meant to do.
 
 **Response:**  
-`[Write here]`
+`[Write hereThe mechanism consists of a manually operated joystick designed to translate user movement into directional input for the game. The joystick is made using a wooden rod that acts as the shaft, with a spherical ball attached at the top, serving as the primary touchpoint for the user.
+
+At the base, the rod rests on a concave surface carved into a wooden block, creating a ball-and-socket-like mechanism using wood. This allows the joystick to pivot smoothly in four directions. To ensure the joystick returns to its neutral position after being tilted, rubber bands are attached to the shaft and anchored to the base, providing a restoring force that recenters the joystick.
+
+The entire mechanism is enclosed within a fabricated MDF housing, which has been laser-cut and assembled into a pyramid-like structure. Small tabs are integrated into the inner surfaces of the housing to mount lever switches. These switches are positioned such that when the joystick is tilted in a particular direction, it physically presses against the corresponding switch, generating an input signal.
+
+Both joysticks use the same mechanical setup and are connected to the digital Paint Fight game, where the physical movements are translated into directional controls for gameplay.]`
 
 ## 8.3 Motion Planning
 If something moves, explain:
@@ -327,7 +333,15 @@ If something moves, explain:
 - what could go wrong.
 
 **Response:**  
-`[Write here]`
+`[The primary moving component in the system is the wooden joystick shaft, along with the attached spherical handle at the top. This shaft is capable of tilting in four directions (up, down, left, and right) around a pivot point formed by the concave base.
+
+The movement is caused by the user applying force on the joystick handle. When the user pushes the joystick in a particular direction, the shaft tilts and makes contact with one of the lever switches positioned around it. Once the force is removed, the rubber bands attached to the shaft create a restoring force that brings the joystick back to its neutral position.
+
+The joystick moves within a limited angular range rather than a large linear distance. The tilt is constrained by the internal structure and the positioning of the switches, allowing enough movement to reliably trigger each switch without overextending the mechanism.
+
+The speed of movement depends entirely on the user’s input, making it variable and responsive. However, the elastic tension from the rubber bands ensures that the return motion to the center is quick and consistent.
+
+Potential issues in the system include uneven tension in the rubber bands, which could affect centering, wear and tear of the switches due to repeated contact, friction in the wooden pivot reducing smooth movement, and possible misalignment causing inconsistent input detection. Ensuring proper alignment and material finishing can help reduce these issues.]`
 
 ## 8.4 Simulation / CAD / Animation Before Making
 If your project includes mechanical motion, document the digital planning before fabrication.
@@ -477,8 +491,8 @@ Insert a sketch or screenshot of the app interface.
 
 | Item | Quantity | In Kit? | Need to Buy? | Estimated Cost | Material / Spec | Why This Choice? |
 |---|---:|---|---|---:|---|---|
-| `[ESP32]` | `1` | `Yes` | `No` | `0` | `[Spec]` | `[Reason]` |
-| `[Item]` | `[Qty]` | `[Yes/No]` | `[Yes/No]` | `[Cost]` | `[Spec]` | `[Reason]` |
+| `[ESP32]` | `2` | `No` | `No` | `0` | `[Spec]` | `[for two players]` |
+| `[lever switches]` | `[8]` | `[No]` | `[No]` | `[0]` | `[Spec]` | `[to fix in 2 joysticks]` |
 | `[Item]` | `[Qty]` | `[Yes/No]` | `[Yes/No]` | `[Cost]` | `[Spec]` | `[Reason]` |
 
 ## 12.2 Material Justification
@@ -497,7 +511,7 @@ Examples:
 
 | Item | Why Needed | Purchase Link | Latest Safe Date to Procure | Status |
 |---|---|---|---|---|
-| `[Item]` | `[Reason]` | `[Link]` | `[Date]` | `[Pending / Ordered / Received]` |
+| `[hooks]` | `[to secure elastics]` | `[Link]` | `[Date]` | `[Pending]` |
 | `[Item]` | `[Reason]` | `[Link]` | `[Date]` | `[Pending / Ordered / Received]` |
 
 ## 12.4 Budget Summary
