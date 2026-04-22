@@ -58,11 +58,11 @@ By the final review, this README should clearly show:
 
 | Name | Primary Role | Secondary Role | Strengths Brought to the Project |
 |---|---|---|---|
-| `[Ananya Mawane]` | `[Electronics / Coding / App / Fabrication / Mechanics]` | `[Role]` | `[Write here]` |
-| `[Aanyaa Agrawal]` | `[Electronics / Coding / App / Fabrication / Mechanics]` | `[Role]` | `[Write here]` |
+| `[Ananya Mawane]` | `[App / Fabrication / Mechanics]` | `[Electronics / Coding]` | `[Ideation, Prototyping, basic micropython coding, hands-on building, problem solving]` |
+| `[Aanyaa Agrawal]` | `[Electronics / Coding / App]` | `[Fabrication / Mechanics]` | `[Electronics, python coding, debugging, logical thinking, hands-on building, problem solving]` |
 
 ## 1.3 Project Title
-`[Paint Fight]`
+`[Paint Fight- Giant Joysticks]`
 
 ## 1.4 One-Line Pitch
 `[A two-player paint fight game where players use oversized joysticks to compete and cover the screen with their color in real time.]`
@@ -134,10 +134,11 @@ List what inspired the project.
 What makes your project original?
 
 **Response:**  
-`[The main twist in our paint fight game comes from the scale of everything, both the giant joysticks and the way the game is played. Instead of small, finger-based controls, players have to use their whole body to move and interact, which makes the experience feel much more immersive and physical.
+`[The main twist in our paint fight game comes from the scale of everything, both the giant joysticks and the way the game is played. Instead of small, finger-based controls, players use their whole body to move and interact, making the experience feel more immersive and physical.
 
-We’ve also changed the way the game is controlled by introducing these large, custom-built joysticks. It takes a familiar mobile game idea and turns it into something more tangible and shared, making it feel more playful, engaging, and fun to interact with.
-]`
+We’ve also changed how the game is controlled by introducing large, custom-built joysticks. This takes a familiar mobile game idea and turns it into something more tangible and shared, making it more playful and engaging.
+
+Along with this, we’ve made a few UI additions like a leaderboard, clear game rules, and a countdown timer, which help structure the gameplay and make the overall experience smoother and more interactive.]`
 
 ---
 
@@ -160,11 +161,11 @@ Examples:
 | Question | Response |
 |---|---|
 | Who is this for? | `[everyone]` |
-| Age range | `[10 years and above]` |
+| Age range | `[7 years and above]` |
 | Solo or multiplayer | `[two player game]` |
 | Expected duration of one round | `[45 seconds]` |
 | What should the player feel? | `[Excited, competitive, playful, happy, satisfied, sad(if you lose), amused ]` |
-| Is explanation required before use? | `Minimal explanation is required. We would briefly explain that each player controls a paint roller using the joystick, and the goal is to cover as much of the screen as possible with their color within the time limit.` |
+| Is explanation required before use? | `Minimal explanation is required. We would briefly explain that each player controls a paint roller using the joystick, and the goal is to cover as much of the screen as possible with their color within the time limit using a rule card which will be displayed on the screen.` |
 
 ## 4.3 Player Journey
 Describe exactly how a player will use the project.
@@ -209,7 +210,8 @@ What features are nice to have but not essential?
 
 - `Haptic feedback`
 - `Color and name customisation`
-- ` `
+- `The game still remains playable even if theres only one player`
+- `a boost (like nitro in racing games) that charges over time and can be activated by pressing down on the joystick`
 
 ---
 
