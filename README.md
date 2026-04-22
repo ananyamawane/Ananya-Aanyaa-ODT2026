@@ -45,7 +45,7 @@ By the final review, this README should clearly show:
 - If something does not apply, write `Not applicable` and explain why.
 - Add images, screenshots, sketches, links, and videos wherever useful.
 - Update task status and weekly logs regularly.
-- Use this file as evidence of process, not only as a final report.
+- Use this file as evidence of process, not only as a final report. 
 
 ---
 
